@@ -4,6 +4,8 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+
+/*-------------- navigation bar ---------*/
 .navigation {
     text-decoration: none;
 }
@@ -13,24 +15,9 @@
     border: 1px solid #000;
     color: #000;
 }
-.header {
-    min-height: 100vh;  /* vu is View Hight */
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(img/header1.jpeg);
-    background-position: center;
-    background-size: cover;  /* picture covers page */
-    position: relative;  /* some offset features connected with top, bottom, etc */ 
+.logo:hover {
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
 }
-
-.header h2 {
-    color: white;
-    font-size: 22px;
-}
-.header p {
-    color: white;
-    font-size: 15px;
-}
-
 nav {
     display: flex;
     padding: 2% 6%;
@@ -68,6 +55,24 @@ nav img {
     width: 100%;
 }
 
+/*--------- homepage header ----------*/
+.header {
+    min-height: 100vh;  /* vu is View Hight */
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(img/header1.jpeg);
+    background-position: center;
+    background-size: cover;  /* picture covers page */
+    position: relative;  /* some offset features connected with top, bottom, etc */ 
+}
+
+.header h2 {
+    color: white;
+    font-size: 22px;
+}
+.header p {
+    color: white;
+    font-size: 15px;
+}
 .text-box {
     width: 90%;
     color: #000;
