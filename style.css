@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 .navigation nav a span {
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     border: 1px solid #000;
     color: #000;
@@ -40,7 +40,7 @@ nav img {
 .nav-links ul li a {
     color: #000;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 20px;
 }
 .nav-links ul li::after {
     content: '';
@@ -127,7 +127,7 @@ nav .fa {
         font-size: 20px;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         background: rgba(255,255,255,0.9);
         border-left: 1px solid grey;
         height: 100vh;
@@ -183,10 +183,11 @@ p {
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
+    text-align: left;
     padding: 20px 12px;
     box-sizing: border-box;
-    text-align: left;
     transition: 0.5s;
+    cursor: pointer;
 }
 .problems-i-can-help-with h3 {
     font-weight: 600;
@@ -210,3 +211,78 @@ p {
         flex-direction: column;
     }
 }
+
+/*-------------- testimonials --------------*/
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#remark {
+    font-size: 8pt;
+}
+.testimonials-col {
+    flex-basis: 48%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.testimonials-col img {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.testimonials-col p {
+    padding: 0;
+}
+.testimonials-col h3 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+/*-------- footer ---------*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: #222;
+    color: #fff;
+}
+
+.footer h4{
+    margin-bottom: 05px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa {
+    color: #fff;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 19px 0;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
