@@ -2,6 +2,7 @@
 layout: default
 permalink: /yoga/
 ---
+
 <style>
 #meditation-for-beginners {
     background-image: url(/img/yoga-banner.png);
@@ -28,16 +29,30 @@ permalink: /yoga/
     color: white;
     font-size: 15px;
 }
+@media(max-width: 870px) {
+    #meditation-for-beginners .text-boxx h1 {
+        font-size: 20px;
+    }
+}
+@media(max-width: 628px) {
+    #meditation-for-beginners {
+        background-image: url(/img/yoga-banner-media.png);
+        padding-bottom: 95%;
+    }
+    #meditation-for-beginners .text-boxx h1 {
+        font-size: 20px;
+    }
+    #meditation-for-beginners .text-boxx {
+        text-align: center;
+        padding-top: 70%;
+    }
+}
 </style>
 
 <section id="meditation-for-beginners">
     <div id="yoga-veera-hat">
         <div class="text-boxx">
             <h1>Медитация для начинающих</h1>
-            <p>
-            Сессия Медитация для начинающих включает в себя<br> направленную
-            медитацию <<Иша крийя>>.
-            </p>
         </div>
     </div>
 </section>
@@ -49,10 +64,26 @@ permalink: /yoga/
 #sadhguru-quote {
     background: #f7f7f7;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
-#sadhguru-quote p,
-#sadhguru-quote div {
+#sadhguru-quote .quote {
     color: #cd9f01;
+}
+#sadhguru-quote img {
+    width: 050px;
+}
+#sadhguru-quote .row div {
+    padding: 0px 20px;
+}
+#sadhguru-quote p {
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+@media(max-width: 770px) {
+    #sadhguru-quote img {
+        display: none;
+    }
 }
 </style>
 
@@ -62,14 +93,26 @@ permalink: /yoga/
             <img src="/img/feathers.svg">
         </div>
 
-        <div>
-            <p><<Стремясь к благополучию, мы совершили самые безумные действия 
+        <div class="quote">
+            <blockquote>
+             <p class="quote">
+            <<Стремясь к благополучию, мы совершили самые безумные действия 
          на этой планете, но благополучие не настало. 
          Если благополучие — это то, к чему вы стремитесь, заглянуть в себя
          — это единственный выход.>>
-            </p>
-         &#8211; Садхгуру
+             </p>
+            </blockquote>
+            <p class="quote">— Садхгуру</p>
         </div>
+    </div>
+
+    <div class="center-elem">
+        <p>
+            Сессия Медитация для начинающих <b>бесплатна</b>, на ней<br>
+            вы изучите простой, но мощный процесс <<Иша крийя>>. 
+            <br>Для многих людей эта медитация стала
+            <b>поворотным моментом</b>.
+        </p>
     </div>
 </section>
 
@@ -78,27 +121,118 @@ permalink: /yoga/
 
 <style>
 #recomendations {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
     background: #f7f7f7;
 }
 #recomendations h2 {
+    text-align: center;
     color: #0c2e83;
 }
 #recomendations ul {
     color: #4c4c4c;
 }
+#recomendations ul li {
+    font-size: 16px;
+    padding: 5px;
+}
+#recomendations div {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+#recomendations div p {
+    text-align: center;
+}
+.center-elem {
+    text-align: center;
+}
 </style>
-<section id="recomendations">
-    <h2>Чтобы извлечь максимальную пользу от вебинара, пожалуйста, 
-        следуйте этим рекомендациям:</h2>
-    <ul>
-        <li>Уделите данной сессии 45 минут</li>
-        <li>Пожалуйста, не прерывайте занятие и не отвлекайтесь на то, чтобы вставать, есть, пить или ходить в туалет во время сессии</li>
-        <li>Если у Вас есть дети или питомцы, пожалуйста, убедитесь, что они не будут отвлекать Вас во время сессии.</li>
-        <li>Участие в сессии рекомендуется на лёгкий желудок, т.е. когда вы немного голодны (через 4 часа после еды) — это оптимальное состояние для прохождения йогических практик вебинара</li>
-        <li>Убедитесь, что ваше интернет-соединение стабильно.</li>
-        <li>Рекоммендуется проходить сессию, используя компьютер и отключив телефон</li>
-     </ul>
 
+<section id="recomendations">
+    <div class="center-elem">
+        <img src="/img/divider-orange.svg">
+    </div>
+
+    <div>
+        <h2>Чтобы извлечь максимальную пользу от вебинара, пожалуйста, 
+            следуйте этим рекомендациям:</h2>
+        <ul>
+            <li>Уделите данной сессии 45 минут</li>
+            <li>Пожалуйста, не прерывайте занятие и не отвлекайтесь на то, чтобы вставать, есть, пить или ходить в туалет во время сессии</li>
+            <li>Если у Вас есть дети или питомцы, пожалуйста, убедитесь, что они не будут отвлекать Вас во время сессии.</li>
+            <li>Участие в сессии рекомендуется на лёгкий желудок, т.е. когда вы немного голодны (через 4 часа после еды) — это оптимальное состояние для прохождения йогических практик вебинара</li>
+            <li>Убедитесь, что ваше интернет-соединение стабильно.</li>
+            <li>Рекоммендуется проходить сессию, используя компьютер и отключив телефон</li>
+         </ul>
+    </div>
+    <div>
+    <p>Пожалуйста, убедитесь, что вы готовы и присоединились к сессии не позднее, чем за 5 минут до ее начала.
+    </div>
 </section>
+
+
+
+<style>
+#register-for-meditation {
+    text-align: center;
+    background: #f7f7f7;
+}
+#register-for-meditation h1 {
+    color: #222;
+}
+#register-for-meditation p {
+    font-size: 14px;
+    color: #4c4c4c;
+    text-align: left;
+}
+#register-for-meditation ul {
+    margin-top: -20px;
+    font-size: 14px;
+    text-align: left;
+    list-style-position: inside;
+}
+#register-for-meditation ul li {
+    padding: 04px;
+    color: #4c4c4c;
+}
+#register-for-meditation ul li a {
+    color: #7878ff;
+}
+
+#register-for-meditation div {
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media(max-width: 770px) {
+    #sign-for-session h1 {
+        font-size: 22px;
+    }
+    
+}
+</style>
+
+<section id="register-for-meditation">
+    <div class="center-elem">
+        <img src="/img/divider-orange.svg">
+    </div>
+    <div>
+        <h1>ПРИНЯТЬ УЧАСТИЕ В МЕДИТАЦИИ</h1>
+        <p>Медитация бесплатна, и проводится для всех желающих! Записаться или просто задать вопрос можно через
+        <ul> 
+            <li> социальные сети:
+                    <a href="">Вконтакте <i class="fa fa-vk"></i></a>, 
+                    <a href="">WhatsApp <i class="fa fa-whatsapp"></i></a>, 
+                    <a href="">Telegram <i class="fa fa-telegram"></i></a>;
+            </li>
+            <li> почту: <a href="mailto:kislyakov.aa@mail.ru">kislyakov.aa@mail.ru</a>;</li>
+            <li> по телефону: + 7 (916) 796-70-??.</li>
+        </ul>
+        </p>
+    </div>
+</section>
+
+
