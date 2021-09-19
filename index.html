@@ -3,6 +3,37 @@ layout: default
 permalink: /
 ---
 
+
+<style>
+/*--------- homepage header ----------*/
+.header {
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../../img/SMM.jpg);
+    background-position: center;
+    background-size: cover;  /* picture covers page */
+    margin-bottom: 30px;
+}
+
+.text-box {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    padding-left: 4%;
+    width: 90%;
+    color: #000;
+    text-align: center;
+}
+.header h2 {
+    color: white;
+    font-size: 22px;
+}
+.header p {
+    color: white;
+    font-size: 15px;
+}
+
+</style>
+
 <!-- Home Page Hat -->
 <header class="header" id="home">
     <div class="text-box">
@@ -17,7 +48,53 @@ permalink: /
     </div>
 </header>
 
-<!-- home page -->
+
+
+
+<!---------- what i can help with ---------->
+<style>
+.what-i-can-help-with {
+    margin: auto;
+    text-align: center;
+    padding-top: 050px;
+    background-color: #f3f3f7;
+}
+
+.what-i-can-help-with .row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.problems-i-can-help-with {
+    flex-basis: 48%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.problems-i-can-help-with h3 {
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+.problems-i-can-help-with ul {
+    color: #777;
+    list-style-position: inside;
+}
+.problems-i-can-help-with ul li {
+    margin: 10px;
+}
+
+.problems-i-can-help-with:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+</style>
+
 <section class="what-i-can-help-with">
     <h1> C какими проблемами я могу помочь:</h1>
 
@@ -50,7 +127,43 @@ permalink: /
 </section>
 
 
+<style>
+/*-------------- testimonials --------------*/
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
 
+#remark {
+    font-size: 8pt;
+}
+.testimonials-col {
+    flex-basis: 48%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.testimonials-col img {
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    display: block;
+}
+
+.testimonials-col p {
+    padding: 0;
+}
+.testimonials-col h3 {
+    text-align: left;
+    margin-top: 15px;
+}
+</style>
 
 <!-------------- testimonials -------------->
 <section class="testimonials">

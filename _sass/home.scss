@@ -3,17 +3,6 @@
     text-decoration: none;
 }
 
-
-/*--------- homepage header ----------*/
-.header {
-    height: 80vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../../img/SMM.jpg);
-    background-position: center;
-    background-size: cover;  /* picture covers page */
-    margin-bottom: 30px;
-}
-
 .text-box {
     padding-top: 20vh;
     padding-bottom: 10vh;
@@ -22,14 +11,7 @@
     color: #000;
     text-align: center;
 }
-.header h2 {
-    color: white;
-    font-size: 22px;
-}
-.header p {
-    color: white;
-    font-size: 15px;
-}
+
 .text-box h1 {
     color: #eee;
     font-size: 62px;
@@ -67,12 +49,6 @@
 }
 
 /*-------------- home page ---------------*/
-.what-i-can-help-with {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
 h1 {
     font-size: 30px;
     font-weight: 600;
@@ -88,35 +64,8 @@ p {
 .row {
     margin-top: 5%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-
-.problems-i-can-help-with {
-    flex-basis: 48%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    cursor: pointer;
-}
-.problems-i-can-help-with h3 {
-    font-weight: 600;
-    margin: 10px;
-    text-align: center;
-}
-.problems-i-can-help-with ul {
-    color: #777;
-    list-style-position: inside;
-}
-.problems-i-can-help-with ul li {
-    margin: 10px;
-}
-
-.problems-i-can-help-with:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 @media(max-width: 750px) {
@@ -124,78 +73,4 @@ p {
         flex-direction: column;
     }
 }
-
-/*-------------- testimonials --------------*/
-.testimonials {
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-}
-
-#remark {
-    font-size: 8pt;
-}
-.testimonials-col {
-    flex-basis: 48%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.testimonials-col img {
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    display: block;
-}
-
-.testimonials-col p {
-    padding: 0;
-}
-.testimonials-col h3 {
-    text-align: left;
-    margin-top: 15px;
-}
-
-/*-------- footer ---------*/
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-    background: #222;
-    color: #fff;
-}
-
-.footer h4{
-    margin-bottom: 05px;
-    margin-top: 20px;
-    font-weight: 600;
-}
-.icons .fa {
-    color: #fff;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 19px 0;
-    font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

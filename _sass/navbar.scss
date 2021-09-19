@@ -14,32 +14,6 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-// .nav-links {
-//     flex: 1;
-//     text-align: right;
-// }
-// .nav-links ul li {
-//     list-style: none;
-//     display: inline-block;
-//     padding: 8px 12px;
-//     position: relative;
-// }
-// .nav-links ul li a {
-//     color: #000;
-//     text-decoration: none;
-// }
-// .nav-links ul li::after {
-//     content: '';
-//     width: 0%;
-//     height: 3px;
-//     background: #000;
-//     display: block;
-//     margin: auto;
-//     transition: 0.5s;
-// }
-// .nav-links ul li:hover::after {
-//     width: 100%;
-// }
 .fa-hiden {
     display: none;
 }
@@ -47,9 +21,6 @@ nav {
     .nav-links ul li {
         display: block;
     }
-//    .nav-links ul li a {
-//        font-size: 20px;
-//    }
     .nav-links {
         position: fixed;
         background: rgba(255,255,255,0.9);
