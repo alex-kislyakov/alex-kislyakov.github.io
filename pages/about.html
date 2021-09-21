@@ -11,38 +11,8 @@ permalink: /about/
 .about-me img {
     max-width: 300px;
 }
-
-
-#my-certificates {
-    background-color: #f3f3f7;
-    padding: 50px 0px;
-    text-align:center;
-    align: center;
-    align-items: center;
-}
-#my-certificates .image-block li {
-    border: 1px solid grey;
-}
-.image-block {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.image-block-elem {
-    margin: 0 16px 16px 0;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    width: 100px;
-}
-#my-certificates ul {
-    list-style-position: inside;
-    text-align: left;
+p {
+    font-size: 16px;
 }
 </style>
 
@@ -64,16 +34,57 @@ permalink: /about/
     </div>
 </section>
 
+
+
+<style>
+#my-certificates {
+    background-color: #f3f3f7;
+    padding: 50px 0px;
+    text-align: center;
+}
+#my-certificates img {
+    border: 1px solid grey;
+}
+#certificates-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+.image-block-elem {
+    margin: 0 16px 16px 0;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    max-width: 100px;
+}
+#my-certificates ul {
+    list-style-position: inside;
+    text-align: left;
+    display: table;
+    margin: 0 auto;
+}
+#my-certificates ul li {
+    margin: 10px 0px;
+}
+
+@media(max-width: 500px) {
+    #certificates-images {
+        width: 80%;
+}
+</style>
+
 <section id="my-certificates">
     <h2>Специализации</h2>
     <div id="certificates-images">
-        <ul class="image-block">
-            <li class="image-block-elem"><img src="/img/ipikp.jpeg"></li>
-            <li class="image-block-elem"><img src="/img/ipikp.jpeg"></li>
-            <li class="image-block-elem"><img src="/img/ipikp.jpeg"></li>
-            <li class="image-block-elem"><img src="/img/ipikp.jpeg"></li>
-            <li class="image-block-elem"><img src="/img/ipikp.jpeg"></li>
-        </ul>
+        <img class="image-block-elem" src="/img/ipikp.jpeg">
+        <img class="image-block-elem" src="/img/ipikp.jpeg">
+        <img class="image-block-elem" src="/img/ipikp.jpeg">
+        <img class="image-block-elem" src="/img/ipikp.jpeg">
+        <img class="image-block-elem" src="/img/ipikp.jpeg">
     </div>
     <ul>
         <li>Психолог, преподаватель психологии (МГУ им.М.В.Ломоносова).</li>
