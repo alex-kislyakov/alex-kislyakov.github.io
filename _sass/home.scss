@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 .text-box {
     padding-top: 20vh;
     padding-bottom: 10vh;
