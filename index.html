@@ -20,6 +20,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color:              #fff;
 }
 
 .text-box {
@@ -27,7 +28,7 @@ h2 {
     padding-bottom: 10vh;
     padding-left: 4%;
     width: 90%;
-    color: #000;
+    color:              #fff;
     text-align: center;
     position: absolute;
 }
@@ -73,6 +74,13 @@ h2 {
     font-size:      22px;
     line-height:    45px;
     font-weight:    600;
+}
+
+@media(max-width:  630px) {
+    #under-header div p {
+        font-size:  16px;
+        line-height:35px;
+    }
 }
 </style>
 
@@ -129,18 +137,6 @@ a, a:visited, a:hover, a:active {
     <h2>УСЛУГИ ПСИХОЛОГА</h2>
 
     <div class="row">
-        <div>
-            <img src = "/img/1ed_teacher.svg" alt="lessons"/>
-            <h3><a href="" class="underline">Семинары и курсы в ZOOM</a></h3>
-            <p>
-                Если вы хотите получить совет, но записаться на прием к 
-                психологу пока не готовы, попробуйте групповые занятия - они
-                интересные, недорогие и реально эффективные. У нас вы получите
-                поддержку группы и советы лучших психологов, которые когда-то
-                помогли мне самой. Помогут они и вам!
-            </p>
-        </div>
-
         <div>
             <img src = "/img/5ev_couple.svg" alt="consultation"/>
             <h3><a href="/psychology/" class="underline">Консультации психолога онлайн</a></h3>
@@ -270,7 +266,8 @@ a, a:visited, a:hover, a:active {
     list-style-position: inside;
 }
 .problems-i-can-help-with ul li {
-    margin: 10px;
+    margin:             10px 0px;
+    margin-left:       -30px;
 }
 .problems-i-can-help-with li::marker {
     font-size:         20px;
@@ -483,70 +480,125 @@ a, a:visited, a:hover, a:active {
     </div>
 </section>
 
+
 <style>
-/*-------------- testimonials --------------*/
-.testimonials {
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
+#what-can-you-do {
+    background-color:   #f0f0f0;
+    padding:            70px 10px;
+}
+#what-can-you-do h2 {
+    text-align:         center;
+    font-size:          26px;
+}
+#what-can-you-do p {
+    margin-left:        auto;
+    margin-right:       auto;
+    max-width:          780px;
+    font-size:          20px;
+    line-height:        28px; 
+    color:              #646464;
 }
 
-#remark {
-    font-size: 8pt;
-}
-.testimonials-col {
-    flex-basis: 48%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    padding: 15px;
-    box-sizing: border-box;
-}
-.testimonials-col img {
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    display: block;
-}
-
-.testimonials-col p {
-    padding: 0;
-}
-.testimonials-col h3 {
-    text-align: left;
-    margin-top: 15px;
-}
 </style>
 
 
-<!-------------- testimonials -------------->
-<section class="testimonials">
-    <h1>Отзывы клиентов</h1>
-    <p id="remark">*публикуются с разрешения клиентов с сохранением конфиденциальности
+<section id="what-can-you-do">
+    <h2>Как помочь человеку с депрессией в<br>периоды кризиса?</h2>
+    <p>
+    Когда близкому человеку плохо, самое главное — не рассчитывайте вылечить его своими силами, но и не сдавайтесь. Просто будьте рядом. Не оценивайте, не обвиняйте, не пристыжайте, не принуждайте, не лечите. Проявите обычную человеческую заботу: выслушайте, приготовьте ужин, пригасите погулять. Покажите, что у вас есть время и желание быть с этим человеком. Знать, что ты не один — это огромная ценность. Но жить рядом с больным — это огромная жертва. Поэтому не забывайте заботиться о себе. Не воспринимайте происходящее лично. Уделяйте себе достаточно времени. Сходите на консультацию с психологом, в группу поддержки, на обед с друзьями — обеспечьте себя опорой.
     </p>
-    <div class="row">
-        <div class="testimonials-col">
-            <p> <img src="img/testimonialsClient1.png"></p>
-            <div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ex nisi, nec mollis massa elementum non.
-                Mauris laoreet, est eu mollis sollicitudin, mauris enim sollicitudin tortor, quis consectetur enim mi sit amet eros.
-                </p>
-                <h3>John Doe</h3>
-            </div>
-        </div> 
-    
-       <div class="testimonials-col">
-            <p> <img src="img/testimonialsClient1.png"></p>
-            <div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ex nisi, nec mollis massa elementum non.
-                Mauris laoreet, est eu mollis sollicitudin, mauris enim sollicitudin tortor, quis consectetur enim mi sit amet eros.
-                </p>
-                </p>
-                <h3>John Doe</h3>
-            </div>
-        </div> 
+
+    <p>
+        Что бы поддержать больного депрессией, важно признать важность его переживаний. Не обесценивайте и не критикуйте, но не пытайтесь стать личным психологом. Лучше поговорите о необходимости получения профессиональной помощи. Покажите интересный сайт психолога, закачайте приложение с медитациями, предложите записаться к частному психологу. Обсудите лекарственную терапию и необычные услуги психолога — терапию приключениями, канин терапию, ретрит или терапевтическое садоводство. На моем опыте, многие, кто отказывался от традиционного лечения, соглашались на альтернативы. Главное верить в положительный исход и не сдаваться.
+    </p>
 </section>
+
+
+
+<style>
+#hot-line {
+    padding: 50px 10px;
+    text-align: center;
+    background-color: #fff;
+}
+#hot-line h2 {
+    color: #757575;
+    font-size:          24px;
+    font-weight:        500;
+}
+#hot-line h3 {
+    color: #777;
+    font-size:          20px;
+    font-weight:        500;
+}
+#hot-line p {
+    font-size:          16px;
+    color:              #585858;
+    text-align:         left;
+}
+#hot-line div {
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    height:             170px;
+    box-sizing: border-box;
+    background:         #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+#hot-line p {
+    color:              #a3a3a3;
+}
+@media(max-width:  630px) {
+    #hot-line h2 {
+        font-size: 20px;
+    }
+    #hot-line h3 {
+        font-size: 19px;
+    }
+
+}
+</style>
+
+<section id="hot-line">
+    <h2>Если вы или ваши близкие находятся в критической ситуации,<br>
+        если требуется неотложная психологическая помощь<br>
+        позвоните на горячую линию:</h2>
+
+    <div>
+        <h3>
+            +7 499 173 09 09
+        </h3>
+        <p>
+            Московская экстренная социальная помощь семьям с детьми.
+        </p>
+    </div>
+    <div>
+        <h3>
+            +7 495 989 50 50
+        </h3>
+        <p>
+            Горячая линия экстренной психологической помощи МЧС России.
+        </p>
+    </div>
+    <div>
+        <h3>
+            +7 800 200 01 22
+        </h3>
+        <p>
+            Телефон доверия для детей и родителей.
+            <br>
+            <br>
+        </p>
+    </div>
+    <div>
+        <h3>
+            +7 495 989 50 50
+        </h3>
+        <p>
+            Московская служба психологической помощи населению.
+        </p>
+    </div>
+</section>
+
 
