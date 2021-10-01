@@ -51,7 +51,7 @@ h2 {
       <p>Мир подобен книге, у  которой есть внешняя обложка и внутреннее содержание.
       <br> Внутреннее содержание находится от вас только в одном шаге &mdash; который вы делаете прямо сейчас.
     </p>
-        <a href="/about/" class="hero-btn">
+        <a href="#my-certificates" class="hero-btn">
             Подробнее обо мне
         </a>
     </div>
@@ -100,7 +100,7 @@ h2 {
 #my-service, 
 #some-questions {
     text-align: center;
-    padding:        50px 20px;
+    padding:        50px 20px 10px;
 }
 #my-service .row, 
 #some-questions .row {
@@ -167,14 +167,23 @@ a, a:visited, a:hover, a:active {
     </div>
 </section>
 
-<style>
 
+
+
+<style>
 #some-questions img {
-    width:          080%;
+    border-radius:      30px;
+    margin-top:         0px;
+    width:              080%;
+}
+#some-questions hr {
+    width:              50%;
+    margin:             0px auto;
 }
 </style>
 
 <section id="some-questions">
+    <hr>
     <div class= "row">
         <div>
             <h3>Хороший психолог — свой психолог.</h3>
@@ -305,6 +314,100 @@ a, a:visited, a:hover, a:active {
                 <li> Суицидальные мысли </li>
                 <li> Зависимости (алкогольная, наркотическая) </li>
             </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<style>
+.about-me {
+    align: center;
+    margin: 20px;
+}
+.about-me img {
+    max-width: 300px;
+}
+p {
+    font-size: 16px;
+}
+</style>
+
+
+<style>
+#my-certificates {
+    background-color: #fff;
+    padding: 50px 10px;
+    text-align: center;
+}
+#my-certificates h2 {
+    text-align: center;
+    font-size:          30px;
+}
+#certificates-images img {
+    margin: 02px;
+    display: inline-block;
+    max-width: 400px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 00px;
+    border-radius: 10px;
+}
+
+@media(max-width: 500px) {
+    #certificates-images img {
+        width: 80%;
+    }
+}
+</style>
+
+
+<section id="my-certificates">
+    <h2>Мои квалификации</h2>
+    <div id="certificates-images">
+        <img class="image-block-elem" src="/img/005.jpeg">
+        <img class="image-block-elem" src="/img/003.jpg">
+        <img class="image-block-elem" src="/img/001.jpg">
+        <img class="image-block-elem" src="/img/002.jpg">
+        <img class="image-block-elem" src="/img/004.jpg">
+        <br>
+        <img class="image-block-elem" src="/img/007.jpg">
+        <img class="image-block-elem" src="/img/006.jpg">
+    </div>
+</section>
+
+<style>
+#about-my-life {
+    padding:            30px 10px;
+    background:         #f0f0f0;
+}
+#about-my-life img {
+    border-radius:      30px;
+}
+#about-my-life h2 {
+    text-align:         center;
+}
+#about-my-life .row {
+    max-width:          950px;
+    margin:             0px auto;
+}
+
+</style>
+<section id="about-my-life">
+    <div class="row">
+        <div class="about-me">
+            <h2>Мой опыт</h2>
+            <p>Психолог - консультант, НЛП - мастер.
+            Активно изучаю психологические направления, повышаю квалификацию. В психологии с 2015 года. </p>
+
+            <p>С 2020 занимаюсь частной практикой.</p>
+
+            <h2>Моя жизнь</h2>
+            <p>Живу полной и осознанной жизнью! Занимаюсь йогой и медитацией, различными видами спорта и творчества, играю на музыкальных интсрументах, люблю готовить и путешествовать.
+            </p>
+        </div>
+        <div class="about-me">
+            <img src="/img/testimonialsClient1.png">
         </div>
     </div>
 </section>
