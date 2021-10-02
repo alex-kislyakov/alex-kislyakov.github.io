@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: def
 permalink: /blog/
 ---
 
+<script src="https://rawgit.com/farzher/fuzzysort/master/fuzzysort.js"></script>
 <link rel="stylesheet" href="/assets/css/blog.css">
 <script src="/assets/js/blog.js"></script>
 
@@ -42,11 +43,10 @@ permalink: /blog/
 
 
 <section id="search" class="raw">
-<hr>
     <div class="search-input">
         <label for="tags">Теги</label><br>
         <input id="tags" type="text" value="" name="tags"
-                placeholder="йога, психология" onkeyup="search()">
+                placeholder="йога психология" onkeyup="search()">
     </div>
     <div class="search-input">
         <label for="name">Название</label><br>
@@ -59,33 +59,11 @@ permalink: /blog/
     </div>
 </section>
 
-<section id="blogs-list">
+
+<section>
+    <ul class="post-list" style="text-align:center" id="blogs-list">
+    </ul>
 </section>
 
-{% assign posts = site.posts %}
-
-
-{%- if page.list_title -%}
-  <h2 class="post-list-heading">{{ page.list_title }}</h2>
-{%- endif -%}
-
-<ul class="post-list" style="text-align:center">
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-  {%- endfor -%}
-</ul>
-
-
-
-<body onload="assignInputElements();assignSectionElements();">
+{{ site.tags }}
+<body onload="assignInputElements();assignSectionElements();search()">

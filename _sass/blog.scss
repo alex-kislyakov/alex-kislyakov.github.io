@@ -1,3 +1,5 @@
+
+
 hr { 
     display: block; 
     height: 1px;
@@ -9,33 +11,19 @@ hr {
 
 
 /*----------- courses-nav --------------*/
-#courses-nav {
+#blog-nav {
     width: 80%;
-    margin: auto;
+    margin: 100px ;
     text-align: center;
     padding-top: 030px;
 }
-.semesters {
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: center;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-.semesters h3 {
-    font-weight: 600;
-    margin: 10px;
-}
-.semesters p {
-    width: 100%;
-    margin: 15px 0;
+
+#blog-nav h1 {
+    font-size: 40px;
 }
 
 @media(max-width: 700px) {
-    #courses-nav {
+    #blog-nav {
         max-width: 300px;
     }
 }
@@ -60,24 +48,24 @@ hr {
 }
 
 /*----------- subjects-list --------------*/
-#notes-list, 
+#blogs-list,
 #subjects-list {
     text-align: center;
 }
-#notes-list div, 
+#blogs-list div,
 #subjects-list div {
     margin: 10px;
     display: inline-block;
 }
-#notes-list .default-btn {
+#blogs-list .default-btn {
     text-align: left;
     max-width: 350px;
 }
-#notes-list hr {
+#blogs-list hr {
     margin: auto;
     width: 50%;
 }
-#notes-list div hr {
+#blogs-list div hr {
     margin: 0px;
 }
 

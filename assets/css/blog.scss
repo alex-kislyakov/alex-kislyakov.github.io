@@ -31,7 +31,11 @@ hr {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 030px;
+    padding: 050px 010px;
+}
+#blog-nav h1 {
+    padding: 100px 0;
+    font-size: 30px;
 }
 #blog-nav div div {
     flex-basis: 31%;
@@ -53,7 +57,7 @@ hr {
 }
 
 @media(max-width: 700px) {
-    #courses-nav {
+    #blog-nav {
         max-width: 300px;
     }
 }
@@ -83,24 +87,22 @@ hr {
 }
 
 /*----------- subjects-list --------------*/
-#notes-list, 
-#subjects-list {
+#blogs-list {
     text-align: center;
 }
-#notes-list div, 
-#subjects-list div {
+#blogs-list div {
     margin: 10px;
     display: inline-block;
 }
-#notes-list .default-btn {
+#blogs-list .default-btn {
     text-align: left;
     max-width: 350px;
 }
-#notes-list hr {
+#blogs-list hr {
     margin: auto;
     width: 50%;
 }
-#notes-list div hr {
+#blogs-list div hr {
     margin: 0px;
 }
 

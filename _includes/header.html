@@ -1,10 +1,21 @@
 <style>
 /*-------------- navigation bar ---------*/
+
+.navigation hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+}
 .navigation {
     background: rgba(255,255,255,0.9);
     position: relative;
-    margin-bottom: -15px;
     z-index: 2;
+}
+nav a:hover {
+    text-decoration: none;
 }
 .logo {
     font-size: 30px;
@@ -56,7 +67,8 @@ nav {
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #ddd;
 }
 
@@ -151,8 +163,9 @@ nav {
         </div>
         <span class="fa-hiden"><i class="fa fa-bars" onclick="showMenu()"></i></span>
     </nav>
+    <hr>
 </section>
-<hr>
+
 
 
 
