@@ -1,0 +1,64 @@
+---
+layout: default
+permalink: /blog/
+---
+
+<link rel="stylesheet" href="/assets/css/blog.css">
+<script src="/assets/js/blog.js"></script>
+
+<section id="blog-nav">
+    <h1>Мои статьи</h1>
+
+    <div class="row"> 
+        <div>
+            <h3 class="default-btn" onclick="showSubjects('1')">
+                Психология</h3>
+            <p> 
+                some text some text some text some text
+                some text some text some text some text
+            </p>
+        </div>
+
+        <div>
+            <h3 class="default-btn" onclick="showSubjects('1')">
+                Жизнь</h3>
+            <p> 
+                some text some text some text some text
+                some text some text some text some text
+            </p>
+        </div>
+
+        <div>
+            <h3 class="default-btn" onclick="showSubjects('1')">
+                Йога</h3>
+            <p> 
+                some text some text some text some text
+                some text some text some text some text
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="search" class="raw">
+<hr>
+    <div class="search-input">
+        <label for="tags">Теги</label><br>
+        <input id="tags" type="text" value="" name="tags"
+                placeholder="йога, психология" onkeyup="search()">
+    </div>
+    <div class="search-input">
+        <label for="name">Название</label><br>
+        <input id="name" type="text" value="" name="name"
+                placeholder="выгорание" onkeyup="search()">
+    </div>
+
+    <div>
+    <input type="submit" value="Очистить" class="button" onclick="clearFields()">
+    </div>
+</section>
+
+<section id="blogs-list">
+</section>
+<body onload="assignInputElements();assignSectionElements();">

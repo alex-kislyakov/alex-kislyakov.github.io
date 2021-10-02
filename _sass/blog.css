@@ -1,0 +1,83 @@
+hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ddd;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+/*----------- courses-nav --------------*/
+#courses-nav {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 030px;
+}
+.semesters {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.semesters h3 {
+    font-weight: 600;
+    margin: 10px;
+}
+.semesters p {
+    width: 100%;
+    margin: 15px 0;
+}
+
+@media(max-width: 700px) {
+    #courses-nav {
+        max-width: 300px;
+    }
+}
+
+/* ---------- search ------------ */
+#search {
+    text-align: center;
+    margin-bottom: 15px;
+}
+#search h2 sup {
+    font-size: 15px;
+    cursor: pointer;
+}
+.search-input {
+    margin: 6px;
+    text-align: center;
+    display: inline-block;
+    background: #fff3f3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+/*----------- subjects-list --------------*/
+#notes-list, 
+#subjects-list {
+    text-align: center;
+}
+#notes-list div, 
+#subjects-list div {
+    margin: 10px;
+    display: inline-block;
+}
+#notes-list .default-btn {
+    text-align: left;
+    max-width: 350px;
+}
+#notes-list hr {
+    margin: auto;
+    width: 50%;
+}
+#notes-list div hr {
+    margin: 0px;
+}
+
