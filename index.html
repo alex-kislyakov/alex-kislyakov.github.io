@@ -85,7 +85,7 @@ h2 {
 <style>
 #under-header {
     position: relative;
-    padding:        50px 0px;
+    padding:        50px 0;
     background:     #fdcb81;
 }
 #under-header div {
@@ -130,9 +130,12 @@ h2 {
 }
 #my-service .row, 
 #some-questions .row {
-    max-width:      950px;
+    max-width:      800px;
     margin-left:    auto;
     margin-right:   auto;
+}
+#my-service .row div {
+    flex-basis: 45%;
 }
 #my-service h2 {
     color:          #7e88a5;
@@ -170,7 +173,7 @@ a, a:visited, a:hover, a:active {
                 Когда вы стоите на пороге кризиса, все, что вам на самом деле 
                 нужно — это человек, который возьмет вас за руку и проведет
                 к выходу. Хотите узнать, тот ли я человек, что вам нужен? 
-                Приходите знакомиться — это бесплатно. </br>
+                Приходите знакомиться — это бесплатно. <br>
                 Консультации психолога по Skype, Zoom, WhatsApp.
             </p>
         </div>
@@ -228,13 +231,13 @@ a, a:visited, a:hover, a:active {
         </div>
 
         <div >
-            <img src = "/img/SMM.jpg" style="float:rigth"/>
+            <img src = "/img/SMM.jpg"/>
         </div>
     </div>
 
     <div class= "row">
         <div>
-            <img src = "/img/SMM.jpg" style="float:rigth"/>
+            <img src = "/img/SMM.jpg"/>
         </div>
 
         <div>
@@ -301,15 +304,14 @@ a, a:visited, a:hover, a:active {
     list-style-position: inside;
 }
 .problems-i-can-help-with ul li {
-    margin:             10px 0px;
-    margin-left:       -30px;
+    margin: 10px 0px 10px -30px;
 }
 .problems-i-can-help-with li::marker {
     font-size:         20px;
 }
 
 .problems-i-can-help-with:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
 </style>
 
@@ -511,7 +513,7 @@ p {
     color:              #7e88a5;
 }
 #speciality-of-my-work .row {
-    max-width:          950px;
+    max-width:          720px;
     margin:             0px auto;
 }
 
@@ -626,9 +628,9 @@ p {
 #what-can-you-do p {
     margin-left:        auto;
     margin-right:       auto;
-    max-width:          780px;
+    max-width:          720px;
     font-size:          20px;
-    line-height:        28px; 
+    line-height:        28px;
     color:              #646464;
 }
 
