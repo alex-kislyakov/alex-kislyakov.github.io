@@ -4,6 +4,7 @@ title:  "Cмысл восхождения в горы"
 date:   2021-09-02 14:21:59 +0200
 categories: жизнь
 tags: путешествия походкавказ походтурция ликийскаятропа походкипр походкрым 
+comments: true
 ---
 
 > В чем смысл совершать восхождения в горы, зачем тебе эти походы?   
@@ -23,4 +24,24 @@ tags: путешествия походкавказ походтурция ли�
 
 ![hiking](/img/blog/hiking.jpg)
 
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 
+    var disqus_config = function () {
+    this.page.url = 'https://aleksnlp.com/blogs/жизнь/2021/09/02/Why-hiking.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'psychologyHiking0'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://aleksnlp.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
