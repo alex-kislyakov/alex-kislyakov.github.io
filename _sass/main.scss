@@ -27,9 +27,7 @@ a, a:visited, a:hover, a:active {
     color: #000;
     font-weight: 600;
     transition: 0.2s;
-} 
-
-
+}
 
 .row {
     margin-top: 5%;
@@ -44,3 +42,18 @@ a, a:visited, a:hover, a:active {
     }
 }
 
+
+.fixed-background {
+    width: 100%;
+    opacity: 0.95;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width: 770px) {
+    .fixed-background {
+        background-attachment: initial;
+    }
+}

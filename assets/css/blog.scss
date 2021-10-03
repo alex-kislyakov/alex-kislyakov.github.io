@@ -29,17 +29,10 @@ hr {
 /*----------- nav --------------*/
 #blog-header {
     min-height: 100vh;
-    width: 100%;
     background-image: url(/img/blog/header.jpg);
-    position: relative;
-    opacity: 0.95;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 #blog-nav {
-    padding-top: 40vh;
+    padding: 40vh 0 100px;
     width: 80%;
     margin: 0 auto;
     text-align: center;

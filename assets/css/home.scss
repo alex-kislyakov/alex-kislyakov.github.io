@@ -10,34 +10,11 @@ p {
 
 /*--------- homepage header ----------*/
 
-.header {
+#home-hat {
   height:             100vh;
-  width:              100%;
   color:              #fff;
-}
-.my-fixed-background:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -10;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#home-page-hat:before {
   background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(/img/SMM.jpg);
-  opacity: 0.95;
 }
-
-
-
 .text-box {
   max-width:      720px;
   margin:         0 auto 0;
@@ -49,12 +26,12 @@ p {
   color: #eee;
   font-size: 62px;
 }
-.header h2 {
-  color: white;
+#home-hat h2 {
+  color: #fff;
   font-size: 22px;
 }
-.header p {
-  color: white;
+#home-hat p {
+  color: #fff;
   font-size: 15px;
 }
 @media(max-width: 770px) {
@@ -217,23 +194,9 @@ p {
 
 
 /*--------- fixed-background ----------*/
-.fixed-background {
-  width: 100%;
+#why-psic-needed {
   background-image: linear-gradient(rgba(255,255,255,0.6),rgba(4,9,30,0.6)), url(/img/alone-crisis.webp);
-
-  position: relative;
-  opacity: 0.95;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-@media(max-width: 770px) {
-  .fixed-background {
-    background-attachment: initial;
-  }
-}
-
 #why-psic-needed div,
 #how-many-sessions div {
   max-width:          780px;
