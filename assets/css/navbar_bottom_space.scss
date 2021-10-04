@@ -4,3 +4,8 @@
 #after-navbar {
   margin-bottom: 13vh;
 }
+@media(max-width: 770px){
+  #after-navbar {
+    margin-bottom: 7vh;
+  }
+}

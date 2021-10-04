@@ -26,7 +26,7 @@ function assignSectionElements() {
 function clearFields() {
     searchInputElems['tags'].value = '';
     searchInputElems['name'].value = '';
-    sections['blogs-list'].innerHTML = '';
+    search();
 }
 
 
@@ -91,15 +91,24 @@ function getPostsSectionHTML(postsList) {
     return blogsSectionHTML;
 }
 
+function isPostTagsMatching(postTags) {
+    let inputTags = searchInputElems['tags'].value.split(' ');
+    for (let i = 0; i < postTags.length; ++i) {
+        for (let j = 0; j < inputTags.length; ++j) {
+            if (postTags[i].includes(inputTags[j])) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 function isPostMatching(post) {
     if (searchInputElems['tags'].value === '')
         return true;
     if (post['tags'] === null)
         return false;
-    console.log(post['tags'].filter(value =>
-        searchInputElems['tags'].value.split(' ').includes(value)).empty);
-    return post['tags'].filter(value =>
-        searchInputElems['tags'].value.split(' ').includes(value)).length !== 0;
+    return isPostTagsMatching(post['tags']);
 }
 function getPostsList() {
     let list = [];
