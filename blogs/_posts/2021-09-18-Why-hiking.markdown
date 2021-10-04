@@ -2,7 +2,6 @@
 layout: post
 title:  "Cмысл восхождения в горы"
 date:   2021-09-02 14:21:59 +0200
-excerpt_separator: <!--more-->
 categories: жизнь
 mytags: 
   - жизнь
@@ -14,7 +13,7 @@ mytags:
   - походкрым 
 comments: true
 ---
-<!--more-->
+<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
 
 > В чем смысл совершать восхождения в горы, зачем тебе эти походы?   
 

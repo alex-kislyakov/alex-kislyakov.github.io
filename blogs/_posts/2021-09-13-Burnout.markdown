@@ -10,7 +10,7 @@ mytags:
   - выгорание
 comments: true
 ---
-<!--more-->
+<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
 
 ---
 ## Содержание
