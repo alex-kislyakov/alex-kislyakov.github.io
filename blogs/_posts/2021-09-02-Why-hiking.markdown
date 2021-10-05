@@ -2,7 +2,6 @@
 layout: post
 title:  "Cмысл восхождения в горы"
 date:   2021-09-02 14:21:59 +0200
-categories: жизнь
 mytags: 
   - жизнь
   - путешествия 
@@ -40,7 +39,7 @@ comments: true
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 
     var disqus_config = function () {
-    this.page.url = 'https://aleksnlp.com/blogs/жизнь/2021/09/02/Why-hiking.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = 'https://aleksnlp.com/blogs/2021/09/02/Why-hiking.html';  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = 'psychologyHiking0'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     
