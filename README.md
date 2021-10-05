@@ -36,4 +36,73 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
+## Как Добавлять Статьи
+1. Нужно создать файл в папке `/blogs/_posts/` в 
+   формате `year-month-day-name-of-article.markdown`,  
+   где year - в формате XXXX, month - в формате XX, и day - в формате XX
+   (X - это цифра).
+2. Добавить в начало файла код:
+    ```
+    ---
+    layout: post
+    title:  "Эмоциональное выгорание"
+    date:   year-month-day 00:00:00 +0200
+    mytags:
+      - психология
+      - эмоциональное
+      - выгорание
+    comments: true
+    ---
+    <link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
+    ``` 
+   **Важно!** Нужно изменить строку с
+   ```
+   date:   year-month-day 00:00:00 +0200
+   ```
+   на нужные значения, как в названии файла.
+3. 
+   Если изменить переменную comments на `comments: false`, то это сделает комменты невидимыми.
+4. Добавить в конец файла:
+   ```
+   {% if page.comments %}
+   <div id="disqus_thread"></div>
+   <script>
+       /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+   
+       var disqus_config = function () {
+       this.page.url = 'https://aleksnlp.com/blogs/year/month/day/name-of-article.html';  // Replace PAGE_URL with your page's canonical URL variable
+       this.page.identifier = 'UniqueID'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+       };
+       
+       (function() { // DON'T EDIT BELOW THIS LINE
+       var d = document, s = d.createElement('script');
+       s.src = 'https://aleksnlp.disqus.com/embed.js';
+       s.setAttribute('data-timestamp', +new Date());
+       (d.head || d.body).appendChild(s);
+       })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   {% endif %}
+   ```
+   **Важно!** Нужно изменить строку с 
+   ```
+   this.page.url = 'https://aleksnlp.com/blogs/year/month/day/name-of-article.html';
+   ```
+   на то что соответствует названию файла, и строку
+   ```
+   this.page.identifier = 'UniqueID'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+   ```
+   на любую **уникальную** последовательность из английских букв и цифр. 
+   Далее, если изменить `UniqueID`, то старые комментарии могут удалиться.
+
+### Markdown
+Чтобы добавить изображения - загрузи файл с картинкой в папку  `/img/blog/`. 
+Название должно быть в только в латинице, без пробелов (цифры можно использовать).
+
+**Важно!** При добовлении изображений не забудь сжать его в [squoosh.app](https://squoosh.app/) до 200-300 Mb максимум.
+
+### Комментарии
+Их можно модерировать в [disqus.com](https://disqus.com) .
 
