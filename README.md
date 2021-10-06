@@ -36,6 +36,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
+## Как редактировать сайт
+### Изображения
+Чтобы изменить изображение, нужно загрузить новое изображение
+в `/img/`и ипрописать новый путь до него. Путь до изображения
+обычно находится где-то в `.scss` файле в ппке `/assets/css/`. 
+Можешь поисакать по `id` элемента, который имеет изображение,
+или написать мне, если будут сомнения.
+
 ## Как Добавлять Статьи
 1. Нужно создать файл в папке `/blogs/_posts/` в 
    формате `year-month-day-name-of-article.markdown`,  
