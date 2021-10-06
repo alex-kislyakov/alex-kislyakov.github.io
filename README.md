@@ -70,30 +70,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
    Далее, если изменить `uniqueID`, то старые комментарии могут удалиться.  
    
    - Если изменить переменную comments на `comments: false`, то это сделает комменты невидимыми.
-4. Добавить в конец файла:
-   ```
-   {% if page.comments %}
-   <div id="disqus_thread"></div>
-   <script>
-       /**
-       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-   
-       var disqus_config = function () {
-       this.page.url = 'https://aleksnlp.com/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-       this.page.identifier = '{{ page.uniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-       };
-       
-       (function() { // DON'T EDIT BELOW THIS LINE
-       var d = document, s = d.createElement('script');
-       s.src = 'https://aleksnlp.disqus.com/embed.js';
-       s.setAttribute('data-timestamp', +new Date());
-       (d.head || d.body).appendChild(s);
-       })();
-   </script>
-   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-   {% endif %}
-   ```
 
 ### Markdown
 Чтобы добавить изображения - загрузи файл с картинкой в папку  `/img/blog/`. 
