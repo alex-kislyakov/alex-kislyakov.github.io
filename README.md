@@ -44,7 +44,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 2. Добавить в начало файла код:
     ```
     ---
-    layout: post
+    layout: mypost
     title:  "Эмоциональное выгорание"
     date:   year-month-day 00:00:00 +0200
     mytags:
