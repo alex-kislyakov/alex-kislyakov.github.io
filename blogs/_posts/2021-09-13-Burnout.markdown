@@ -9,7 +9,6 @@ mytags:
 uniqueID: 'psychologyBurnout0'
 comments: true
 ---
-<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
 
 ---
 ## Содержание

@@ -13,7 +13,6 @@ mytags:
 uniqueID: 'psychologyHiking0'
 comments: true
 ---
-<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
 
 > В чем смысл совершать восхождения в горы, зачем тебе эти походы?   
 

@@ -10,8 +10,6 @@ mytags:
 uniqueID: 'svadhisthanaСhakra1'
 comments: true
 ---
-<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
-
 
 # Свадхистана чакра
 Чувство красоты, тактичность, коммуникабельность и аккуратность. Что объединяет эти качества?  

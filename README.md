@@ -54,7 +54,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
     uniqueID: 'PsicBurnout000'
     comments: true
     ---
-    <link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
     ``` 
    **Важно!** Нужно изменить 
    - дату в строке
