@@ -9,7 +9,8 @@ mytags:
   - походтурция 
   - ликийскаятропа 
   - походкипр
-  - походкрым 
+  - походкрым
+uniqueID: 'psychologyHiking0'
 comments: true
 ---
 <link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
@@ -39,8 +40,8 @@ comments: true
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
 
     var disqus_config = function () {
-    this.page.url = 'https://aleksnlp.com/blogs/2021/09/02/Why-hiking.html';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = 'psychologyHiking0'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    this.page.url = 'https://aleksnlp.com/{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '{{ page.uniqueID }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     
     (function() { // DON'T EDIT BELOW THIS LINE
