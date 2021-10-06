@@ -168,6 +168,31 @@ p {
   box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
 
+/*---------  ----------*/
+#my-certificates {
+  background-color: #fff;
+  padding: 50px 10px;
+  text-align: center;
+}
+#my-certificates h2 {
+  text-align: center;
+  font-size:          30px;
+}
+#certificates-images img {
+  margin: 02px;
+  display: inline-block;
+  max-width: 400px;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 00px;
+  border-radius: 10px;
+}
+
+@media(max-width: 500px) {
+  #certificates-images img {
+    width: 80%;
+  }
+}
 
 /*--------- about-me ----------*/
 .about-me {
