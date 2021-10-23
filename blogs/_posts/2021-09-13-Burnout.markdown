@@ -101,4 +101,4 @@ comments: true
 В сложных случаях обращайтесь к специалистам. 
 
 Берегите себя и близких.
-![burnout3](/img/blog/burnout3.jpg)
+![burnout3](/img/blog/posts/burnout3.jpg)

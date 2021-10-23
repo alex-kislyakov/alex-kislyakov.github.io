@@ -29,4 +29,4 @@ comments: true
 После походов по Крыму, Кипру, Турции, Кавказу, я могу уверенно сказать, что лучше гор могут быть только горы!  
 
 
-![hiking](/img/blog/hiking.jpg)
+![hiking](/img/blog/posts/hiking.jpg)

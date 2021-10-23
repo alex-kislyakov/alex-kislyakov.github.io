@@ -4,7 +4,7 @@
 /*------------ meditation-for-beginners hat -----------*/
 #meditation-for-beginners {
   position: relative;
-  background-image: url(/img/yoga-banner.png);
+  background-image: url(/img/yoga/yoga-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;  /* picture covers page */
@@ -38,7 +38,7 @@
 }
 @media(max-width: 628px) {
   #meditation-for-beginners {
-    background-image: url(/img/yoga-banner-media.png);
+    background-image: url(/img/yoga/yoga-banner-media.png);
     padding-bottom: 100%;
   }
   #meditation-for-beginners .text-boxx h1 {

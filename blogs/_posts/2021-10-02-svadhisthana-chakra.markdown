@@ -50,4 +50,4 @@ comments: true
 1. осознанность - способность замечать эмоции, чувства и желания на их уровне возникновения;
 1. интроспекция, пранаяма и медитация.
 
-![Image](/img/blog/waterfall.jpg)
+![Image](/img/blog/posts/waterfall.jpg)
