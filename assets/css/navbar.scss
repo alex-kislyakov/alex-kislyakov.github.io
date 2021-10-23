@@ -2,6 +2,21 @@
 ---
 
 /*-------------- navigation bar ---------*/
+.navigation {
+  color: #fff;
+  background: linear-gradient(rgba(126,136,165,0.9), rgba(126,136,165,0.5));
+  position: fixed;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+.logo {
+  font-size: 25px;
+  position: absolute;
+  margin: -20px 0;
+  font-weight: 600;
+}
 .navigation hr {
   display: block;
   border: 0;
@@ -9,29 +24,18 @@
   padding: 0;
   margin: 0;
 }
-.navigation {
-  color: #fff;
-  background: linear-gradient(rgba(126,136,165,0.9), rgba(126,136,165,0.5));
-  position: fixed;
-  top: -20px;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  z-index: 2;
-}
+
 nav a:hover {
   text-decoration: none;
 }
-.logo {
-  font-size: 30px;
-  padding: 05px;
-  font-family: 'Explora', cursive;
-}
 nav {
   display: flex;
-  padding: 2% 6%;
+  padding: 13px 30px;
   justify-content: space-between;
   align-items: center;
+}
+nav a {
+  font-size: 18px;
 }
 .fa-hiden {
   display: none;
@@ -44,11 +48,9 @@ nav {
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
-  font-size: 20px;
   color: #fff;
   text-align: center;
-  padding: 00px 20px;
+  padding: 00px 14px;
   text-decoration: none;
 }
 
@@ -60,11 +62,8 @@ nav {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  color: #eee;
-  font-size: 20px;
   border: none;
   outline: none;
-  padding: 03px 20px 00px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
@@ -89,7 +88,7 @@ nav {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  font-size: 16px;
+  font-size: 13px;
   float: none;
   color: #222;
   padding: 12px 16px;
@@ -98,7 +97,6 @@ nav {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   color: #EFAE4EFF;
   transition: 0.5s;
@@ -109,16 +107,13 @@ nav {
   display: block;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 680px) {
   .navigation {
     top: 0px;
     height: 0px;
   }
   .navbar a {
     padding-top: 08px;
-  }
-    .nav-links ul li {
-    display: block;
   }
   .nav-links {
     position: fixed;
@@ -129,15 +124,12 @@ nav {
     top: 0;
     right: -150px;
     text-align: left;
-    z-index: 2;
+    z-index: 3;
     transition: 1s;
   }
   .dropdown-content {
     display: block;
     position: relative;
-  }
-  .dropdown-content a {
-    font-size: 13px;
   }
   .fa-hiden {
     display: block;
