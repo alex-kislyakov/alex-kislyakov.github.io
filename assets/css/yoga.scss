@@ -64,10 +64,12 @@
   background: #f7f7f7;
   padding-top: 20px;
   padding-bottom: 20px;
+
 }
 #sadhguru-quote .quote {
+  max-width: 720px;
   color: #cd9f01;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 #sadhguru-quote img {
   width: 050px;
