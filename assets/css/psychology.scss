@@ -3,9 +3,21 @@
 
 /*--------------  --------------*/
 #sign-for-session {
-  padding: 20vh 0 10vh;
-  background: #222;
+  background-image: url(/img/psychology/psyc-cons.jpg);
+}
+#sign-for-session #text-box {
+  padding: 20vh 0 100px;
   text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  color: #fff;
+}
+#sign-for-session #inner-text-box {
+  margin: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
 }
 #sign-for-session h1 {
   color: #f7f7f7;
@@ -29,13 +41,7 @@
   color: #7878ff;
 }
 
-#sign-for-session div {
-  margin: 10px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  border-radius: 10px;
-}
+
 @media(max-width: 770px) {
   #sign-for-session h1 {
     font-size: 22px;
