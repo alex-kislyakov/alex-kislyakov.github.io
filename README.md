@@ -1,5 +1,6 @@
 ## Useful links
 - Google Analytics: https://analytics.google.com/analytics/web/
+- FB comments moderating: https://developers.facebook.com/tools/comments/
 
 ## Welcome to GitHub Pages
 
