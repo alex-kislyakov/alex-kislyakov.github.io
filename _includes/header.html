@@ -4,7 +4,7 @@
     <nav>
         <a href="/"><span class="logo">AK</span></a>
 
-        <div class="nav-links" id="navLinks">
+        <div id="nav-links">
             <span class="fa-hiden"><i class="fa fa-times" onclick="hideMenu()"></i></span>
             <div class="navbar">
                 <a href="/" class="navbar-item">Главная</a>
@@ -29,7 +29,7 @@
 
 <!-- JavaScript for Toggle Menu -->
 <script>
-    var navLinks = document.getElementById("navLinks");
+    var navLinks = document.getElementById("nav-links");
     
     function showMenu() {
         navLinks.style.right = "0";
