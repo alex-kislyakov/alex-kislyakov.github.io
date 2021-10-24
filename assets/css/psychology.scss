@@ -43,6 +43,13 @@
 
 
 @media(max-width: 770px) {
+  #sign-for-session {
+    min-height: 50px;
+    height: 400px;
+  }
+  #sign-for-session #text-box {
+    padding-top: 10%;
+  }
   #sign-for-session h1 {
     font-size: 22px;
   }

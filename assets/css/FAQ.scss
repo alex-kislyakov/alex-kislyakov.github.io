@@ -15,8 +15,15 @@
 }
 
 @media(max-width: 628px) {
+  #faq-header {
+    min-height: 50px;
+    height: 400px;
+  }
+  #faq-header div {
+    padding-top: 220px;
+  }
   #faq-header h1 {
-    font-size: 40px;
+    font-size: 27px;
   }
 
 }
