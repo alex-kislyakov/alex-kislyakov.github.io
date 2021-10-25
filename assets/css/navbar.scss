@@ -109,7 +109,7 @@ nav a:hover {
   display: block;
 }
 
-@media(max-width: 680px) {
+@media(max-width: {{ site.NAVBA_MEDIA_WIDTH }}) {
   .navigation {
     top: 0px;
     height: 0px;

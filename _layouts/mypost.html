@@ -2,21 +2,21 @@
 layout: post
 ---
 <link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
-
+<style>
+    @media(max-width: {{ site.NAVBA_MEDIA_WIDTH }}){
+        #after-navbar {
+            margin-bottom: 7vh;
+        }
+    }
+</style>
 <!-- Facebook comments -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0&appId=1001680920688100&autoLogAppEvents=1" nonce="TEZ2C6fG"></script>
-<!--<script>(function(d, s, id) {-->
-<!--    var js, fjs = d.getElementsByTagName(s)[0];-->
-<!--    if (d.getElementById(id)) return;-->
-<!--    js = d.createElement(s); js.id = id;-->
-<!--    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0';-->
-<!--    fjs.parentNode.insertBefore(js, fjs);-->
-<!--}(document, 'script', 'facebook-jssdk'));</script>-->
+
 {{ content }}
 
 {% if page.comments %}
-<!--<div class="fb-comments" data-href="https://aleksnlp.com/{{ page.url }}" data-width="720" data-numposts="5" data-order-by="reverse_time"></div>-->
+<!--fb comments-->
 <div class="fb-comments" data-href="https://aleksnlp.com/{{ page.url }}" data-width="720" data-numposts="7" data-order-by="reverse_time"></div>
 
 <noscript>Please enable JavaScript to view the comments.</noscript>
