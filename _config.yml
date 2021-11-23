@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Александр Кисляков (Психолог - консультант)
+title: Частный психолог Александр Кисляков
 description: >- # this means to ignore newlines until "baseurl:"
   Александр Кисляков – психолог, НЛП мастер. Устали от проблем? Депрессия, нервозность, страхи? – Давайте знакомиться!
 baseurl: "" # the subpath of your site, e.g. /blog
