@@ -77,15 +77,15 @@ function getPostsSectionHTML(postsList) {
         lmNum = notesGroups['lowMatch'].length;
     let blogsSectionHTML = '';
     if (hmNum !== 0 && (mmNum + lmNum) !== 0) {
-        blogsSectionHTML += '<hr><h2>High-matching Notes</h2>';
+        blogsSectionHTML += '<hr><h2>Высокое совпадение</h2>';
     }
     blogsSectionHTML += notesGroups['highMatch'];
     if (mmNum !== 0) {
-        blogsSectionHTML += '<hr><h2>Medium-matching Notes</h2>';
+        blogsSectionHTML += '<hr><h2>Среднее совпадение</h2>';
     }
     blogsSectionHTML += notesGroups['medMatch'];
     if (lmNum) {
-        blogsSectionHTML += '<hr><h2>Low-matching Notes</h2>';
+        blogsSectionHTML += '<hr><h2>Низкое совпадение</h2>';
     }
     blogsSectionHTML += notesGroups['lowMatch'];
     return blogsSectionHTML;
