@@ -54,6 +54,7 @@ p {
   padding:        50px 10px;
   background:     rgba(126,136,165,0.7);
 }
+
 #under-header div {
   max-width:      850px;
   text-align:     center;
@@ -80,7 +81,7 @@ p {
 #some-questions {
   background:     #fff;
   text-align:     center;
-  padding:        50px 20px 10px;
+  padding:        50px 10px 10px;
 }
 #my-service .row,
 #some-questions .row {
@@ -96,6 +97,7 @@ p {
 }
 #my-service div h3,
 #some-questions div h3 {
+  font-size:      20px;
   color:          #545454;
 }
 .underline {

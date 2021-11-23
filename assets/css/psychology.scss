@@ -6,12 +6,13 @@
   background-image: url(/img/psychology/psyc_cons.jpg);
 }
 #sign-for-session #text-box {
-  padding: 20vh 0 100px;
+  padding:    20vh 0 100px;
   text-align: center;
-  max-width: 720px;
-  margin: 0 auto;
-  color: #fff;
+  max-width:  720px;
+  margin:     0 auto;
+  color:      #fff;
 }
+
 #sign-for-session #inner-text-box {
   margin: 10px;
   padding: 20px 30px;
@@ -58,6 +59,7 @@
 
 /*--------------  --------------*/
 #psyc-session-questions {
+  padding: 50px 10px 70px;
   text-align: center;
   background-color: #efefef;
 }
