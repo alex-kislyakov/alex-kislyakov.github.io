@@ -11,20 +11,21 @@ p {
 /*--------- homepage header ----------*/
 
 #home-hat {
-  min-height:             100vh;
+  min-height:         100vh;
   color:              #fff;
-  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(/img/home/head2.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(/img/home/head3.jpg);
 }
 #home-hat .text-box {
-  max-width:      720px;
+  max-width: 900px;
   margin:         0 auto 0;
-  padding:        40vh 10px 0;
+  padding:        30vh 10px 0;
   color:          #fff;
   text-align:     center;
 }
+
 #home-hat .text-box h1 {
   color: #eee;
-  font-size: 62px;
+  font-size: 48px;
 }
 #home-hat h2 {
   color: #fff;
@@ -32,7 +33,11 @@ p {
 }
 #home-hat p {
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
+}
+#home-hat a {
+  font-size: 20px;
+  margin-top: 20px;
 }
 @media(max-width: 770px) {
   #home-hat {
@@ -103,7 +108,6 @@ p {
 .underline {
   border-bottom:  solid 2px #fee5c0;
   text-decoration:none;
-  color:          #545454;
 }
 #my-service div p,
 #some-questions div p {
