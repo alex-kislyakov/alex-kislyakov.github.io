@@ -86,7 +86,6 @@ p {
 #some-questions {
   background:     #fff;
   text-align:     center;
-  padding:        50px 10px 10px;
 }
 #my-service .row,
 #some-questions .row {
@@ -181,7 +180,6 @@ p {
 /*---------  ----------*/
 #my-certificates {
   background-color: #fff;
-  padding: 50px 10px;
   text-align: center;
 }
 #my-certificates h2 {
@@ -205,15 +203,8 @@ p {
 }
 
 /*--------- about-me ----------*/
-.about-me {
-  align: center;
-  margin: 20px;
-}
-.about-me img {
-  max-width: 300px;
-}
+
 #about-my-life {
-  padding:            30px 10px;
   background:         #f0f0f0;
 }
 #about-my-life img {
@@ -226,19 +217,25 @@ p {
   max-width:          950px;
   margin:             0px auto;
 }
-
+.about-me {
+  align: center;
+  margin: 20px;
+}
+.about-me img {
+  max-width: 300px;
+}
 
 /*--------- fixed-background ----------*/
 #why-psic-needed {
   background-image: linear-gradient(rgba(255,255,255,0.6),rgba(4,9,30,0.6)), url(/img/home/home_cry.jpg);
 }
+
 #why-psic-needed div,
 #how-many-sessions div {
   max-width:          780px;
   text-align:         center;
   margin-left:        auto;
   margin-right:       auto;
-  padding:            50px 10px;
 }
 #why-psic-needed h2,
 #how-many-sessions h2 {
@@ -259,11 +256,15 @@ p {
   font-size:          16px;
 }
 
+/*--------- default-paddings ----------*/
+.default-paddings {
+  padding:            50px 10px;
+}
+
 
 /*--------- speciality-of-my-work ----------*/
 #speciality-of-my-work {
   background:     #fff;
-  padding:            50px 10px;
   text-align:         center;
 }
 #speciality-of-my-work {
@@ -294,7 +295,6 @@ p {
 /*--------- what-can-you-do ----------*/
  #what-can-you-do {
    background-color:   #f0f0f0;
-   padding:            70px 10px;
  }
 #what-can-you-do h2 {
   text-align:         center;
