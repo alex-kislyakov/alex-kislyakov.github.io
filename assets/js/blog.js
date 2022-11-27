@@ -27,6 +27,21 @@ const posts = [
 		'https://dzen.ru/a/Y4N58rmSVxp6Nk3e',
 		'йога медитация осознанность психология',
 	),
+	new Post(
+		'Муладхара чакра',
+		'https://dzen.ru/a/Y4OAAAPpnGjYFKJO',
+		'йога медитация муладхара психология',
+	),
+	new Post(
+		'Эмоциональное выгорание',
+		'https://dzen.ru/a/Y4N-k21Z71GFrzxG',
+		'психология эмоциональное выгорание',
+	),
+	new Post(
+		'Творчество, или как позволить себе быть творцом',
+		'https://dzen.ru/a/Y4N5FG4LRTSS3Wgs',
+		'жизнь творчество психология художник осознанность',
+	),
 ];
 
 function getInputTags() {
@@ -73,7 +88,7 @@ function getPostHTML(post) {
 		'\
     <li>\
         <span class="post-meta">' +
-		'date' +
+		post.tags.join(' ') +
 		'</span>\
         <h3>\
             <a class="post-link" href="' +
