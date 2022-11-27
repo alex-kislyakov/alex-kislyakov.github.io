@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,12 +20,12 @@
 
 title: Частный психолог Александр Кисляков
 description: >- # this means to ignore newlines until "baseurl:"
-  Александр Кисляков – психолог, НЛП мастер. Устали от проблем? Депрессия, нервозность, страхи? – Давайте знакомиться!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aleksnlp.com" # the base hostname & protocol for your site, e.g. http://example.com
+    Александр Кисляков – психолог, НЛП мастер. Устали от проблем? Депрессия, нервозность, страхи? – Давайте знакомиться!
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://aleksnlp.com' # the base hostname & protocol for your site, e.g. http://example.com
 standard_username: aleksnlp
 twitter_username: aleksnlp
-github_username:  aleksnlp
+github_username: aleksnlp
 
 # contact lincs
 WhatsApp_link: https://wa.me/79167967056
@@ -36,11 +36,10 @@ instagram_link: https://www.instagram.com/aleksnlp
 email: mail@aleksnlp.com
 phone_number: +7 (916) 796-70-56
 
-
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # constants
 NAVBA_MEDIA_WIDTH: 680px
@@ -54,7 +53,7 @@ NAVBA_MEDIA_WIDTH: 680px
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .idea/
+    - .idea/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

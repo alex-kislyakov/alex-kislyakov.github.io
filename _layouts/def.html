@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+	{%- include head.html -%}
 
-  {%- include head.html -%}
+	<body>
+		{%- include header.html -%}
+		<link rel="stylesheet" href="/assets/css/navbar_bottom_space.css" />
 
-  <body>
+		<main class="my-page-content" aria-label="Content">
+			<div class="my-wrapper">{{ content }}</div>
+		</main>
 
-    {%- include header.html -%}
-    <link rel="stylesheet" href="/assets/css/navbar_bottom_space.css">
-
-    <main class="my-page-content" aria-label="Content">
-      <div class="my-wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+		{%- include footer.html -%}
+	</body>
 </html>

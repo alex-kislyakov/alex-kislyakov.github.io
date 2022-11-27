@@ -2,10 +2,10 @@
 ---
 
 #after-navbar {
-  margin-bottom: 6vh;
+	margin-bottom: 6vh;
 }
-@media(max-width: {{ site.NAVBA_MEDIA_WIDTH }}){
-  #after-navbar {
-    margin-bottom: 0vh;
-  }
+@media (max-width: {{ site.NAVBA_MEDIA_WIDTH }}) {
+	#after-navbar {
+		margin-bottom: 0vh;
+	}
 }

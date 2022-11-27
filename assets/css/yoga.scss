@@ -3,184 +3,180 @@
 
 /*------------ meditation-for-beginners hat -----------*/
 #meditation-for-beginners {
-  position: relative;
-  background-image: url(/img/yoga/yoga_banner.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;  /* picture covers page */
-  height: 0;
-  padding-bottom: 37%;
-  color: #fff;
+	position: relative;
+	background-image: url(/img/yoga/yoga_banner.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%; /* picture covers page */
+	height: 0;
+	padding-bottom: 37%;
+	color: #fff;
 }
 #meditation-for-beginners .text-boxx {
-  padding-top: 12%;
-  width: 50%;
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
+	padding-top: 12%;
+	width: 50%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
 }
 #meditation-for-beginners h1 {
-  color: #fff;
-  font-size: 29px;
-  margin-bottom: -10px;
+	color: #fff;
+	font-size: 29px;
+	margin-bottom: -10px;
 }
 #meditation-for-beginners p {
-  color: white;
-  font-size: 15px;
+	color: white;
+	font-size: 15px;
 }
 #meditation-for-beginners img {
-  margin: 20px;
+	margin: 20px;
 }
-@media(max-width: 870px) {
-  #meditation-for-beginners .text-boxx h1 {
-    font-size: 20px;
-  }
+@media (max-width: 870px) {
+	#meditation-for-beginners .text-boxx h1 {
+		font-size: 20px;
+	}
 }
-@media(max-width: 628px) {
-  #meditation-for-beginners {
-    background-image: url(/img/yoga/yoga_banner_media.png);
-    padding-bottom: 100%;
-  }
-  #meditation-for-beginners .text-boxx h1 {
-    font-size: 16px;
-  }
-  #meditation-for-beginners .text-boxx {
-    position: absolute;
-    bottom: 8%;
-    color: #fff;
-    width: 100%;
-  }
-  #meditation-for-beginners img {
-    width: 50vw;
-  }
-  #meditation-for-beginners .hero-btn {
-    padding: 5px;
-  }
+@media (max-width: 628px) {
+	#meditation-for-beginners {
+		background-image: url(/img/yoga/yoga_banner_media.png);
+		padding-bottom: 100%;
+	}
+	#meditation-for-beginners .text-boxx h1 {
+		font-size: 16px;
+	}
+	#meditation-for-beginners .text-boxx {
+		position: absolute;
+		bottom: 8%;
+		color: #fff;
+		width: 100%;
+	}
+	#meditation-for-beginners img {
+		width: 50vw;
+	}
+	#meditation-for-beginners .hero-btn {
+		padding: 5px;
+	}
 }
-
 
 /*------------ sadhguru-quote -----------*/
 #sadhguru-quote {
-  background: #f7f7f7;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
+	background: #f7f7f7;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #sadhguru-quote .quote {
-  max-width: 720px;
-  color: #cd9f01;
-  margin: 0 auto 20px;
+	max-width: 720px;
+	color: #cd9f01;
+	margin: 0 auto 20px;
 }
 #sadhguru-quote img {
-  width: 050px;
+	width: 050px;
 }
 #sadhguru-quote .row div {
-  padding: 0px 20px;
+	padding: 0px 20px;
 }
 #sadhguru-quote p {
-  margin: 0px 10px;
-  font-size: 14px;
-  color: #4c4c4c;
+	margin: 0px 10px;
+	font-size: 14px;
+	color: #4c4c4c;
 }
 
-@media(max-width: 770px) {
-  #sadhguru-quote img {
-    display: none;
-  }
+@media (max-width: 770px) {
+	#sadhguru-quote img {
+		display: none;
+	}
 }
 
 /*------------  -----------*/
 #yoga-questions {
-  padding: 50px 0;
-  text-align: center;
-  background: #f7f7f7;
+	padding: 50px 0;
+	text-align: center;
+	background: #f7f7f7;
 }
 .question-ans h3 {
-  color: #0c2e83;
+	color: #0c2e83;
 }
 .question-ans p {
-  font-size: 16px;
-  color: #585858;
-  text-align: left;
+	font-size: 16px;
+	color: #585858;
+	text-align: left;
 }
 .question-ans {
-  margin: 20px;
-  display: inline-block;
-  max-width: 400px;
-  box-sizing: border-box;
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
+	margin: 20px;
+	display: inline-block;
+	max-width: 400px;
+	box-sizing: border-box;
+	background: #fff;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 /*------------  -----------*/
 #recomendations {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  background: #f7f7f7;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background: #f7f7f7;
 }
 #recomendations h2 {
-  text-align: center;
-  color: #0c2e83;
+	text-align: center;
+	color: #0c2e83;
 }
 #recomendations ul {
-  color: #4c4c4c;
+	color: #4c4c4c;
 }
 #recomendations ul li {
-  font-size: 16px;
-  padding: 5px 10px;
+	font-size: 16px;
+	padding: 5px 10px;
 }
 #recomendations div {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
 }
 #recomendations div p {
-  text-align: center;
+	text-align: center;
 }
 .center-elem {
-  text-align: center;
+	text-align: center;
 }
-
-
 
 /*------------  -----------*/
 #register-for-meditation {
-  text-align: center;
-  background: #f7f7f7;
+	text-align: center;
+	background: #f7f7f7;
 }
 #register-for-meditation h1 {
-  margin-top: -10px;
-  color: #222;
+	margin-top: -10px;
+	color: #222;
 }
 #register-for-meditation p {
-  font-size: 14px;
-  color: #4c4c4c;
-  text-align: left;
+	font-size: 14px;
+	color: #4c4c4c;
+	text-align: left;
 }
 #register-for-meditation ul {
-  margin-top: -20px;
-  font-size: 14px;
-  text-align: left;
-  list-style-position: inside;
+	margin-top: -20px;
+	font-size: 14px;
+	text-align: left;
+	list-style-position: inside;
 }
 #register-for-meditation ul li {
-  padding: 04px;
-  color: #4c4c4c;
+	padding: 04px;
+	color: #4c4c4c;
 }
 #register-for-meditation ul li a {
-  color: #7878ff;
+	color: #7878ff;
 }
 #register-for-meditation div {
-  margin: 10px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 10px;
-  border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
 }
 
-@media(max-width: 770px) {
-  #sign-for-session h1 {
-    font-size: 22px;
-  }
+@media (max-width: 770px) {
+	#sign-for-session h1 {
+		font-size: 22px;
+	}
 }

@@ -3,51 +3,50 @@
 
 /*------------  -----------*/
 #faq-header {
-  min-height: 100vh;
-  background-image: url(/img/FAQ/FAQ_banner.jpg);
+	min-height: 100vh;
+	background-image: url(/img/FAQ/FAQ_banner.jpg);
 }
 #faq-header div {
-  padding: 48vh 10% 100px;
-  color: #fff;
+	padding: 48vh 10% 100px;
+	color: #fff;
 }
 #faq-header h1 {
-  font-size: 60px;
+	font-size: 60px;
 }
 
-@media(max-width: 628px) {
-  #faq-header {
-    min-height: 50px;
-    height: 400px;
-  }
-  #faq-header div {
-    padding-top: 220px;
-  }
-  #faq-header h1 {
-    font-size: 27px;
-  }
-
+@media (max-width: 628px) {
+	#faq-header {
+		min-height: 50px;
+		height: 400px;
+	}
+	#faq-header div {
+		padding-top: 220px;
+	}
+	#faq-header h1 {
+		font-size: 27px;
+	}
 }
 
 /*------------  -----------*/
 #faq-questions {
-  padding: 50px 10px 70px;
-  text-align: center;
-  background-color: #efefef;
+	padding: 50px 10px 70px;
+	text-align: center;
+	background-color: #efefef;
 }
 #faq-questions h3 {
-  color: #7e88a5;
+	color: #7e88a5;
 }
 #faq-questions p {
-  font-size: 16px;
-  color: #585858;
-  text-align: left;
+	font-size: 16px;
+	color: #585858;
+	text-align: left;
 }
 #faq-questions div {
-  margin: 10px;
-  display: inline-block;
-  max-width: 800px;
-  box-sizing: border-box;
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	max-width: 800px;
+	box-sizing: border-box;
+	background: #fff;
+	padding: 10px;
+	border-radius: 10px;
 }

@@ -1,42 +1,48 @@
-<link rel="stylesheet" href="/assets/css/navbar.css">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/navbar.css" />
+<link
+	href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;500&display=swap"
+	rel="stylesheet"
+/>
 
 <section class="navigation">
-    <nav>
-        <a href="/"><span class="logo">AK</span></a>
+	<nav>
+		<a href="/"><span class="logo">AK</span></a>
 
-        <div id="nav-links">
-            <span class="fa-hiden"><i class="fa fa-times" onclick="hideMenu()"></i></span>
-            <div class="navbar">
-                <a href="/" class="navbar-item">Главная</a>
-                <div class="dropdown navbar-item">
-                    <span class="dropbtn">
-                        Услуги<i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </span>
-                    <div class="dropdown-content">
-                        <a href="/psychology/" class="navbar-dropdown-item">Консультация по психологии</a>
-                        <a href="/yoga/" class="navbar-dropdown-item">Ознакомительная медитация</a>
-                    </div>
-                </div>
-                <a href="/FAQ/" class="navbar-item">FAQ</a>
-                <a href="/blog/" class="navbar-item">Блог</a>
-                <a href="/contacts/" class="navbar-item">Контакты</a>
-            </div>
-        </div>
-        <span class="fa-hiden" id="media-nav-bars"><i class="fa fa-bars" onclick="showMenu()"></i></span>
-    </nav>
+		<div id="nav-links">
+			<span class="fa-hiden"><i class="fa fa-times" onclick="hideMenu()"></i></span>
+			<div class="navbar">
+				<a href="/" class="navbar-item">Главная</a>
+				<div class="dropdown navbar-item">
+					<span class="dropbtn">
+						Услуги<i class="fa fa-caret-down" aria-hidden="true"></i>
+					</span>
+					<div class="dropdown-content">
+						<a href="/psychology/" class="navbar-dropdown-item"
+							>Консультация по психологии</a
+						>
+						<a href="/yoga/" class="navbar-dropdown-item">Ознакомительная медитация</a>
+					</div>
+				</div>
+				<a href="/FAQ/" class="navbar-item">FAQ</a>
+				<a href="/blog/" class="navbar-item">Блог</a>
+				<a href="/contacts/" class="navbar-item">Контакты</a>
+			</div>
+		</div>
+		<span class="fa-hiden" id="media-nav-bars"
+			><i class="fa fa-bars" onclick="showMenu()"></i
+		></span>
+	</nav>
 </section>
 <div id="after-navbar"></div>
 
 <!-- JavaScript for Toggle Menu -->
 <script>
-    var navLinks = document.getElementById("nav-links");
-    
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
-    function hideMenu() {
-        navLinks.style.right = "-150px";
-    }
-</script>
+	var navLinks = document.getElementById('nav-links');
 
+	function showMenu() {
+		navLinks.style.right = '0';
+	}
+	function hideMenu() {
+		navLinks.style.right = '-150px';
+	}
+</script>

@@ -4,69 +4,71 @@ permalink: /blog/
 ---
 
 <script src="https://rawgit.com/farzher/fuzzysort/master/fuzzysort.js"></script>
-<link rel="stylesheet" href="/assets/css/blog.css">
+<link rel="stylesheet" href="/assets/css/blog.css" />
 <script src="/assets/js/blog.js"></script>
 
-
 <section class="fixed-background" id="blog-header">
-    <div id="blog-nav">
-        <div class="row">
-            <div>
-                <a href="#search"><h3 class="default-btn" onclick="showTags('психология')">
-                    Психология
-                </h3></a>
-                <p>
-                    Как справиться с эмоциональным выгоранием?<br>
-                </p>
-            </div>
+	<div id="blog-nav">
+		<div class="row">
+			<div>
+				<a href="#search"
+					><h3 class="default-btn" onclick="showTags('психология')">Психология</h3></a
+				>
+				<p>Как справиться с эмоциональным выгоранием?<br /></p>
+			</div>
 
-            <div>
-                <a href="#search"><h3 class="default-btn" onclick="showTags('йога')" href="#search">
-                    Йога
-                </h3></a>
-                <p>
-                    В чем польза медитаций?<br>
-                    Что такое свадхистана чакра и как она влияет на нашу жизнь?<br>
-                </p>
-            </div>
+			<div>
+				<a href="#search"
+					><h3 class="default-btn" onclick="showTags('йога')" href="#search">Йога</h3></a
+				>
+				<p>
+					В чем польза медитаций?<br />
+					Что такое свадхистана чакра и как она влияет на нашу жизнь?<br />
+				</p>
+			</div>
 
-            <div>
-                <a href="#search"><h3 class="default-btn" onclick="showTags('жизнь')">
-                    Жизнь
-                </h3></a>
-                <p>
-                    В чем смысл горных походов?<br>
-                    Как разбудить творца в себе?<br>
-                </p>
-            </div>
-
-
-        </div>
-    </div>
+			<div>
+				<a href="#search"><h3 class="default-btn" onclick="showTags('жизнь')">Жизнь</h3></a>
+				<p>
+					В чем смысл горных походов?<br />
+					Как разбудить творца в себе?<br />
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
-
 
 <section id="search" class="raw">
-    <div class="search-input">
-        <label for="tags">Теги</label><br>
-        <input id="tags" type="text" value="" name="tags"
-                placeholder="йога психология" onkeyup="search()">
-    </div>
-    <div class="search-input">
-        <label for="name">Название</label><br>
-        <input id="name" type="text" value="" name="name"
-                placeholder="выгорание" onkeyup="search()">
-    </div>
+	<div class="search-input">
+		<label for="tags">Теги</label><br />
+		<input
+			id="tags"
+			type="text"
+			value=""
+			name="tags"
+			placeholder="йога психология"
+			onkeyup="search()"
+		/>
+	</div>
+	<div class="search-input">
+		<label for="name">Название</label><br />
+		<input
+			id="name"
+			type="text"
+			value=""
+			name="name"
+			placeholder="выгорание"
+			onkeyup="search()"
+		/>
+	</div>
 
-    <div>
-    <input type="submit" value="Очистить" class="button" onclick="clearFields()">
-    </div>
+	<div>
+		<input type="submit" value="Очистить" class="button" onclick="clearFields()" />
+	</div>
 </section>
-
 
 <section id="posts-list-sec">
-    <ul class="post-list" style="text-align:center" id="blogs-list">
-    </ul>
+	<ul class="post-list" style="text-align: center" id="blogs-list"></ul>
 </section>
 
-<body onload="assignInputElements();assignSectionElements();search()">
+<body onload="assignInputElements();assignSectionElements();search()"></body>

@@ -3,80 +3,78 @@
 
 /*--------------  --------------*/
 #sign-for-session {
-  background-image: url(/img/psychology/psyc_cons.jpg);
+	background-image: url(/img/psychology/psyc_cons.jpg);
 }
 #sign-for-session #text-box {
-  padding:    20vh 0 100px;
-  text-align: center;
-  max-width:  720px;
-  margin:     0 auto;
-  color:      #fff;
+	padding: 20vh 0 100px;
+	text-align: center;
+	max-width: 720px;
+	margin: 0 auto;
+	color: #fff;
 }
 
 #sign-for-session #inner-text-box {
-  margin: 10px;
-  padding: 20px 30px;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
-  background: rgba(0,0,0,0.6);
-  border-radius: 10px;
+	margin: 10px;
+	padding: 20px 30px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
 }
 #sign-for-session h1 {
-  color: #f7f7f7;
+	color: #f7f7f7;
 }
 #sign-for-session p {
-  font-size: 14px;
-  color: #eee;
-  text-align: left;
+	font-size: 14px;
+	color: #eee;
+	text-align: left;
 }
 #sign-for-session ul {
-  margin-top: -20px;
-  font-size: 14px;
-  text-align: left;
-  list-style-position: inside;
+	margin-top: -20px;
+	font-size: 14px;
+	text-align: left;
+	list-style-position: inside;
 }
 #sign-for-session ul li {
-  padding: 04px;
-  color: #eee;
+	padding: 04px;
+	color: #eee;
 }
 #sign-for-session ul li a {
-  color: #7878ff;
+	color: #7878ff;
 }
 
-
-@media(max-width: 770px) {
-  #sign-for-session {
-    min-height: 50px;
-    height: 400px;
-  }
-  #sign-for-session #text-box {
-    padding-top: 10%;
-  }
-  #sign-for-session h1 {
-    font-size: 22px;
-  }
+@media (max-width: 770px) {
+	#sign-for-session {
+		min-height: 50px;
+		height: 400px;
+	}
+	#sign-for-session #text-box {
+		padding-top: 10%;
+	}
+	#sign-for-session h1 {
+		font-size: 22px;
+	}
 }
-
 
 /*--------------  --------------*/
 #psyc-session-questions {
-  padding: 50px 10px 70px;
-  text-align: center;
-  background-color: #efefef;
+	padding: 50px 10px 70px;
+	text-align: center;
+	background-color: #efefef;
 }
 #psyc-session-questions h3 {
-  color: #7e88a5;
+	color: #7e88a5;
 }
 #psyc-session-questions p {
-  font-size: 16px;
-  color: #585858;
-  text-align: left;
+	font-size: 16px;
+	color: #585858;
+	text-align: left;
 }
 #psyc-session-questions div {
-  margin: 10px;
-  display: inline-block;
-  max-width: 400px;
-  box-sizing: border-box;
-  background: #f9f9f9;
-  padding: 10px;
-  border-radius: 10px;
+	margin: 10px;
+	display: inline-block;
+	max-width: 400px;
+	box-sizing: border-box;
+	background: #f9f9f9;
+	padding: 10px;
+	border-radius: 10px;
 }

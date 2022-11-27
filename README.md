@@ -1,6 +1,7 @@
 ## Useful links
-- Google Analytics: https://analytics.google.com/analytics/web/
-- FB comments moderating: https://developers.facebook.com/tools/comments/
+
+-   Google Analytics: https://analytics.google.com/analytics/web/
+-   FB comments moderating: https://developers.facebook.com/tools/comments/
 
 ## Welcome to GitHub Pages
 
@@ -16,11 +17,13 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
-- Bulleted
-- List
+-   Bulleted
+-   List
 
 1. Numbered
 2. List
@@ -41,19 +44,23 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 ## Как редактировать сайт
+
 ### Изображения
+
 Чтобы изменить изображение, нужно загрузить новое изображение
 в `/img/`и ипрописать новый путь до него. Путь до изображения
-обычно находится где-то в `.scss` файле в ппке `/assets/css/`. 
+обычно находится где-то в `.scss` файле в ппке `/assets/css/`.
 Можешь поисакать по `id` элемента, который имеет изображение,
 или написать мне, если будут сомнения.
 
 ## Как Добавлять Статьи
-1. Нужно создать файл в папке `/blogs/_posts/` в 
+
+1. Нужно создать файл в папке `/blogs/_posts/` в
    формате `year-month-day-name-of-article.markdown`,  
    где year - в формате XXXX, month - в формате XX, и day - в формате XX
    (X - это цифра).
 2. Добавить в начало файла код:
+
     ```
     ---
     layout: mypost
@@ -66,29 +73,33 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
     uniqueID: 'PsicBurnout000'
     comments: true
     ---
-    ``` 
-   **Важно!** Нужно изменить 
-   - дату в строке
-     ```
-     date:   year-month-day 00:00:00 +0200
-     ```
-     на нужные значения, как в названии файла, 
-   - и `uniqueID` в строке
-     ```
-     uniqueID: 'PsicBurnout000'
-     ```
-     на любую **уникальную** последовательность из английских букв и цифр. 
-   Далее, если изменить `uniqueID`, то старые комментарии могут удалиться.  
-   
-   - Если изменить переменную comments на `comments: false`, то это сделает комменты невидимыми.
+    ```
+
+    **Важно!** Нужно изменить
+
+    - дату в строке
+        ```
+        date:   year-month-day 00:00:00 +0200
+        ```
+        на нужные значения, как в названии файла,
+    - и `uniqueID` в строке
+
+        ```
+        uniqueID: 'PsicBurnout000'
+        ```
+
+        на любую **уникальную** последовательность из английских букв и цифр.
+        Далее, если изменить `uniqueID`, то старые комментарии могут удалиться.
+
+    - Если изменить переменную comments на `comments: false`, то это сделает комменты невидимыми.
 
 ### Markdown
-Чтобы добавить изображения - загрузи файл с картинкой в папку  `/img/blog/`. 
+
+Чтобы добавить изображения - загрузи файл с картинкой в папку `/img/blog/`.
 Название должно быть в только в латинице, без пробелов (цифры можно использовать).
 
 **Важно!** При добовлении изображений не забудь сжать его в [squoosh.app](https://squoosh.app/) до 200-300 Mb максимум.
 
 ### Комментарии
+
 Их можно модерировать в [disqus.com](https://disqus.com) .
-
-

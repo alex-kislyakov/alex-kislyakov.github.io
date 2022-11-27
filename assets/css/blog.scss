@@ -1,125 +1,126 @@
 ---
 ---
-h1, h2, h3, label {
-    color:          #333;
+
+h1,
+h2,
+h3,
+label {
+	color: #333;
 }
-hr { 
-    display: block; 
-    height: 1px;
-    border: 0; 
-    border-top: 1px solid #ddd;
-    margin: 0; 
-    padding: 0; 
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin: 0;
+	padding: 0;
 }
 
 .default-btn {
-    display: block;
-    box-sizing: border-box;
-    background: #eee;
-    padding: 10px; 
-    border-radius: 10px;
-    cursor: pointer;
+	display: block;
+	box-sizing: border-box;
+	background: #eee;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
 }
 .default-btn:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
-
-
 
 /*----------- nav --------------*/
 #blog-header {
-    min-height: 100vh;
-    background-image: url(/img/blog/blog_banner.jpg);
+	min-height: 100vh;
+	background-image: url(/img/blog/blog_banner.jpg);
 }
 #blog-nav {
-    padding: 40vh 0 100px;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+	padding: 40vh 0 100px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 #blog-nav div div {
-    flex-basis: 31%;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
-    background: rgba(0,0,0,0.1);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: center;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+	flex-basis: 31%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
 }
 #blog-nav h3 {
-    font-weight: 600;
-    margin: 10px;
+	font-weight: 600;
+	margin: 10px;
 }
 #blog-nav p {
-    width: 100%;
-    margin: 15px 0;
-    color: #fff;
+	width: 100%;
+	margin: 15px 0;
+	color: #fff;
 }
 
-@media(max-width: 700px) {
-    #blog-nav {
-        max-width: 300px;
-    }
+@media (max-width: 700px) {
+	#blog-nav {
+		max-width: 300px;
+	}
 }
 
 /* ---------- search ------------ */
 #search {
-    text-align: center;
-    padding: 100px 15px 50px;
+	text-align: center;
+	padding: 100px 15px 50px;
 }
 #search h2 sup {
-    font-size: 20px;
-    cursor: pointer;
+	font-size: 20px;
+	cursor: pointer;
 }
 .search-input {
-    margin: 15px;
-    text-align: center;
-    display: inline-block;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
-    background: rgba(0,0,0,0.0);
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 10px 10px;
+	margin: 15px;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 10px 10px;
 }
 #search input {
-    border-radius: 10px;
-    font-size: 16px;
-    border:             1px solid #999;
-    text-align:         center;
-    max-width: 300px;
+	border-radius: 10px;
+	font-size: 16px;
+	border: 1px solid #999;
+	text-align: center;
+	max-width: 300px;
 }
 .button {
-    background: #fff;
-    border-radius: 1px;
-    cursor: pointer;
+	background: #fff;
+	border-radius: 1px;
+	cursor: pointer;
 }
 
 /*----------- blogs-list --------------*/
 #posts-list-sec {
-    padding: 00px 0 70px;
+	padding: 00px 0 70px;
 }
 #posts-list-sec h2 {
-    color: #aaa;
+	color: #aaa;
 }
 #blogs-list {
-    text-align: center;
+	text-align: center;
 }
 #blogs-list div {
-    margin: 10px;
-    display: inline-block;
+	margin: 10px;
+	display: inline-block;
 }
 #blogs-list .default-btn {
-    text-align: left;
-    max-width: 350px;
+	text-align: left;
+	max-width: 350px;
 }
 #blogs-list hr {
-    margin: auto;
-    width: 50%;
+	margin: auto;
+	width: 50%;
 }
 #blogs-list div hr {
-    margin: 0px;
+	margin: 0px;
 }
-
