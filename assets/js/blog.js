@@ -42,6 +42,11 @@ const posts = [
 		'https://dzen.ru/a/Y4N5FG4LRTSS3Wgs',
 		'жизнь творчество психология художник осознанность',
 	),
+	new Post(
+		'Манипура чакра',
+		'https://dzen.ru/a/Y4OOqYlHGw5gMuKc',
+		'йога медитация манипура психология',
+	),
 ];
 
 function getInputTags() {
