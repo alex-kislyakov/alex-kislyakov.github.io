@@ -33,6 +33,7 @@ hr {
 	min-height: 100vh;
 	background-image: url(/img/blog/blog_banner.jpg);
 }
+
 #blog-nav {
 	padding: 40vh 0 100px;
 	width: 80%;
@@ -40,7 +41,7 @@ hr {
 	text-align: center;
 }
 
-#blog-nav div div {
+.blog_nav_elem {
 	flex-basis: 31%;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
 	background: rgba(0, 0, 0, 0.1);
@@ -50,7 +51,9 @@ hr {
 	padding: 20px 12px;
 	box-sizing: border-box;
 	transition: 0.5s;
+	min-width: 300px;
 }
+
 #blog-nav h3 {
 	font-weight: 600;
 	margin: 10px;
@@ -62,6 +65,22 @@ hr {
 }
 
 @media (max-width: 700px) {
+	#blog-nav p {
+		color: #000;
+	}
+
+	.blog_nav_elem {
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+		background: rgba(0, 0, 0, 0);
+	}
+
+	#blog-header {
+		min-height: 200px;
+		max-height: 200px;
+	}
+	#search {
+		margin-top: 700px;
+	}
 	#blog-nav {
 		max-width: 300px;
 	}
@@ -80,7 +99,7 @@ hr {
 	margin: 15px;
 	text-align: center;
 	display: inline-block;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 	background: rgba(0, 0, 0, 0);
 	border-radius: 10px;
 	box-sizing: border-box;
