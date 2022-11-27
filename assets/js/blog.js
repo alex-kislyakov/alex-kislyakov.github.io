@@ -20,7 +20,7 @@ const posts = [
 	new Post(
 		'Cмысл восхождения в горы',
 		'https://dzen.ru/a/YuRIU4msRXyJHeVk',
-		'жизнь путешествия походкавказ походтурция ликийскаятропа походкипр походкрым',
+		'жизнь путешествия поход',
 	),
 	new Post(
 		'Свадхистана чакра',
@@ -88,7 +88,8 @@ function getPostHTML(post) {
 		'\
     <li>\
         <span class="post-meta">' +
-		post.tags.join(' ') +
+		'#' +
+		post.tags.join('# ') +
 		'</span>\
         <h3>\
             <a class="post-link" href="' +
