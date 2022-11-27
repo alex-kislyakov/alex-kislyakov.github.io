@@ -89,7 +89,7 @@ function getPostHTML(post) {
     <li>\
         <span class="post-meta">' +
 		'#' +
-		post.tags.join('# ') +
+		post.tags.join(' #') +
 		'</span>\
         <h3>\
             <a class="post-link" href="' +
