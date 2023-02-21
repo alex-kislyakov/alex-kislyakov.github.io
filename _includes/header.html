@@ -12,18 +12,8 @@
 			<span class="fa-hiden"><i class="fa fa-times" onclick="hideMenu()"></i></span>
 			<div class="navbar">
 				<a href="/" class="navbar-item">Главная</a>
-				<div class="dropdown navbar-item">
-					<span class="dropbtn">
-						Услуги<i class="fa fa-caret-down" aria-hidden="true"></i>
-					</span>
-					<div class="dropdown-content">
-						<a href="/psychology/" class="navbar-dropdown-item"
-							>Консультация по психологии</a
-						>
-						<a href="/yoga/" class="navbar-dropdown-item">Ознакомительная медитация</a>
-					</div>
-				</div>
-				<a href="/FAQ/" class="navbar-item">FAQ</a>
+				<a href="/psychology/" class="navbar-item">Консультация</a>
+				<a href="/yoga/" class="navbar-item">Медитация</a>
 				<a href="/blog/" class="navbar-item">Блог</a>
 			</div>
 		</div>
@@ -33,15 +23,3 @@
 	</nav>
 </section>
 <div id="after-navbar"></div>
-
-<!-- JavaScript for Toggle Menu -->
-<script>
-	var navLinks = document.getElementById('nav-links');
-
-	function showMenu() {
-		navLinks.style.right = '0';
-	}
-	function hideMenu() {
-		navLinks.style.right = '-150px';
-	}
-</script>
